@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Multiplication Table for 4</h1>
+    <table border="1">
+        <tr>
+            <th>Multiplier</th>
+            <th>Result</th>
+        </tr>
+        <script>
+            for (let i = 1; i <= 10; i++) {
+                const multiplier = i;
+                const result = multiplier * 4;
+                document.write(`
+                    <tr>
+                        <td>${multiplier}</td>
+                        <td>${result}</td>
+                    </tr>
+                `);
+            }
+        </script>
+    </table>
+</body>
+</html>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
